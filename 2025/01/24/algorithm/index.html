@@ -6,15 +6,15 @@
   
   <title>algorithm | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="黄色代表最初始的方程 黄色或蓝色代表重点，未确定的地方 蓝色是默认中间的颜色，标颜色的都要加粗 红色代表重点，要记的地方 绿色代表逻辑 二分插值算法  总结：自己独立写出做对了 思路：上下限移动  冒号后面就是要记的特征和难点 循环不变式：依据是数学归纳法原理，找到真正和迭代状态有关的变量（i&#x3D;n时ans&#x3D;f(n)一定成立）原理实际就是数学归纳法的原理：无穷无尽的多米诺骨牌 不">
+  <meta name="description" content="黄色代表最初始的方程 黄色或蓝色代表重点，未确定的地方 蓝色是默认中间的颜色，标颜色的都要加粗 红色代表重点，要记的地方 绿色代表逻辑 我的人生态度： 单纯为了赢的那种感觉。真心冒险 作为一个乐子人的基本素养啊喂！当然是要能随口胡扯且合乎逻辑有理有据不被拆穿啊！ 怎么样算是语言能力提升呢？我想应该是能够在说话的时候脑子已经在想下一句该怎么说，这个论点该怎么扯，下一个注意点该怎么引到自己想要的地方">
 <meta property="og:type" content="article">
 <meta property="og:title" content="algorithm">
 <meta property="og:url" content="http://example.com/2025/01/24/algorithm/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="黄色代表最初始的方程 黄色或蓝色代表重点，未确定的地方 蓝色是默认中间的颜色，标颜色的都要加粗 红色代表重点，要记的地方 绿色代表逻辑 二分插值算法  总结：自己独立写出做对了 思路：上下限移动  冒号后面就是要记的特征和难点 循环不变式：依据是数学归纳法原理，找到真正和迭代状态有关的变量（i&#x3D;n时ans&#x3D;f(n)一定成立）原理实际就是数学归纳法的原理：无穷无尽的多米诺骨牌 不">
+<meta property="og:description" content="黄色代表最初始的方程 黄色或蓝色代表重点，未确定的地方 蓝色是默认中间的颜色，标颜色的都要加粗 红色代表重点，要记的地方 绿色代表逻辑 我的人生态度： 单纯为了赢的那种感觉。真心冒险 作为一个乐子人的基本素养啊喂！当然是要能随口胡扯且合乎逻辑有理有据不被拆穿啊！ 怎么样算是语言能力提升呢？我想应该是能够在说话的时候脑子已经在想下一句该怎么说，这个论点该怎么扯，下一个注意点该怎么引到自己想要的地方">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-01-24T01:10:44.000Z">
-<meta property="article:modified_time" content="2025-02-06T12:59:45.145Z">
+<meta property="article:modified_time" content="2025-02-18T02:46:37.780Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -98,17 +98,29 @@
 <p>蓝色是默认中间的颜色，标颜色的都要加粗</p>
 <p>红色代表重点，要记的地方</p>
 <p>绿色代表逻辑</p>
-<p>二分插值算法 </p>
-<p>总结：自己独立写出做对了 思路：上下限移动 </p>
+<p>我的人生态度：</p>
+<p>单纯为了赢的那种感觉。真心冒险</p>
+<p>作为一个乐子人的基本素养啊喂！当然是要能随口胡扯且合乎逻辑有理有据不被拆穿啊！</p>
+<p>怎么样算是语言能力提升呢？我想应该是能够在说话的时候脑子已经在想下一句该怎么说，这个论点该怎么扯，下一个注意点该怎么引到自己想要的地方</p>
+<p>那种猎人即将收网的感觉</p>
+<p>基本问题：++合并</p>
+<h3 id="我要研究的问题目前想到的有两个：一是怎么记住算法及使用特征，二是找到破题的规律"><a href="#我要研究的问题目前想到的有两个：一是怎么记住算法及使用特征，二是找到破题的规律" class="headerlink" title="我要研究的问题目前想到的有两个：一是怎么记住算法及使用特征，二是找到破题的规律"></a>我要研究的问题目前想到的有两个：一是怎么记住算法及使用特征，二是找到破题的规律</h3><p>&#x3D;&#x3D;每个算法或数据结构模块必须有两个高亮：数据结构，规律&#x3D;&#x3D;</p>
+<p>&#x3D;&#x3D;注意：规律必须是具体&#x3D;&#x3D;</p>
+<p>学习过程包括怎么验证自己会了：能完全独立地迅速默写</p>
 <p>冒号后面就是要记的特征和难点</p>
+<p>&#x3D;&#x3D;像讲一个有趣的故事一样讲出写作格式和算法思路，就这两个&#x3D;&#x3D;</p>
+<p>写一个类，然后是公有接口和私有接口，接口里就是函数</p>
+<p>然后就到函数了，</p>
 <h4 id="循环不变式：依据是数学归纳法原理，找到真正和迭代状态有关的变量（i-n时ans-f-n-一定成立）"><a href="#循环不变式：依据是数学归纳法原理，找到真正和迭代状态有关的变量（i-n时ans-f-n-一定成立）" class="headerlink" title="循环不变式：依据是数学归纳法原理，找到真正和迭代状态有关的变量（i&#x3D;n时ans&#x3D;f(n)一定成立）"></a>循环不变式：依据是数学归纳法原理，找到真正和迭代状态有关的变量（i&#x3D;n时ans&#x3D;f(n)一定成立）</h4><p>原理实际就是数学归纳法的原理：无穷无尽的多米诺骨牌</p>
 <p><strong>不同于tmp仅用于解决赋值时的顺序问题</strong></p>
-<p>写作格式：</p>
+<p>写作格式：常量必须初始化，小中大括号等的语法在语句里都可以用！</p>
+<p>参数入栈顺序从右到左（实际符合从上到下从左到右）</p>
+<p>写作细节：C中是static和宏定义，但是宏定义发生错误必须到运行时才能发现</p>
+<p>指针只有在定义时不同，要多一个*，其余的意义就是取地址</p>
 <p>理解时：定义变量时把迭代变量都暴露出来，并且都通过next_这些临时变量来计算下一个状态，这样只要考虑下一个状态和上一个状态的关系，而不用关心赋值顺序</p>
 <p>为了简洁，把迭代变量作文一组参数，该参数组表达的就是当前状态，然后定义一个函数专门用来迭代</p>
 <p>问题：递归调用的每次迭代消耗栈内存空间，程序不可能长时间运行</p>
-<p>递归：函数直接或间接地调用自己</p>
-<p>尾递归：所有递归形式的调用，一定是发生在函数的末尾，只占用恒量内存（同迭代）</p>
+<h4 id="递归：函数直接或间接地调用自己，直接分为基础情况和递归情况"><a href="#递归：函数直接或间接地调用自己，直接分为基础情况和递归情况" class="headerlink" title="递归：函数直接或间接地调用自己，直接分为基础情况和递归情况"></a>递归：函数直接或间接地调用自己，直接分为基础情况和递归情况</h4><p>尾递归：所有递归形式的调用，一定是发生在函数的末尾，只占用恒量内存（同迭代）</p>
 <h4 id="尾递归：进入下一个函数不再需要上一个函数的环境（再进行处理）了，直接返回。比线性递归多一个参数，这个参数是上一次调用函数得到的结果，关键是指令层面的最后一步"><a href="#尾递归：进入下一个函数不再需要上一个函数的环境（再进行处理）了，直接返回。比线性递归多一个参数，这个参数是上一次调用函数得到的结果，关键是指令层面的最后一步" class="headerlink" title="尾递归：进入下一个函数不再需要上一个函数的环境（再进行处理）了，直接返回。比线性递归多一个参数，这个参数是上一次调用函数得到的结果，关键是指令层面的最后一步"></a>尾递归：进入下一个函数不再需要上一个函数的环境（再进行处理）了，直接返回。比线性递归多一个参数，这个参数是上一次调用函数得到的结果，关键是指令层面的最后一步</h4><p>关键点在于，尾递归每次调用都在收集结果，避免了线性递归不收集结果只能依次展开消耗内存的坏处</p>
 <p>怎么写尾递归？形式上只要最后一个return语句是单纯函数就可以</p>
 <p>然而，对于 C++ 等语言来说，在函数最后 return g(x); 并不一定是尾递归——在返回之前很可能涉及到对象的析构函数，使得 g(x) 不是最后执行的那个。这可以通过返回值优化来解决。 </p>
@@ -117,18 +129,60 @@
 <p>方法内部只是执行一系列操作，将操作结果传递给下一个递归调用，所以完全可以将调用递归方法之前的逻辑单独抽出来一个没有递归调用的方法，至于递归的逻辑改为由while控制调用流程，啥时候结束、啥时候进行下一次调用</p>
 <p>acc这种递归相当于外层调用依赖内层调用的结果，然后再做进一步的操作，最终由最外层的方法收口操作，返回最终结果。</p>
 <p>但尾递归由于将外层方法的结果传递给了内层方法，那外层方法实际上没有任何利用价值了，直接从栈里踢出去就行了，所以可以保证同时只有一个栈帧在栈里存活，节省了大量栈空间。</p>
-<p>如果编译器针对尾递归形式的递归代码作了这种优化，就可能把原本需要线性复杂度栈内存空间的执行过程用常数复杂度的空间完成.<br>尾递归优化主要是对栈内存空间的优化，这个优化是O(n)到O(1)。至于时间的优化，其实是对空间的优化导致内存分配的工作减少所产生，是一个常数优化，不会带来质的变化<br>尾递归形式和循环&#x2F;迭代是同一个逻辑的两种表达形式，二者执行效率基本相当，这也是函数式编程效率上没有落后的一个很重要的原因</p>
+<p>​	</p>
+<p>如果编译器针对尾递归形式的递归代码作了这种优化，就可能把原本需要线性复杂度栈内存空间的执行过程用常数复杂度的空间完成<br>尾递归优化主要是对栈内存空间的优化，这个优化是O(n)到O(1)。至于时间的优化，其实是对空间的优化导致内存分配的工作减少所产生，是一个常数优化，不会带来质的变化<br>尾递归形式和循环&#x2F;迭代是同一个逻辑的两种表达形式，二者执行效率基本相当，这也是函数式编程效率上没有落后的一个很重要的原因</p>
 <p>如何<strong>优化尾递归</strong>：在编译器处理过程中生成<strong>中间代码</strong>（通常是三地址代码），用编译器优化。</p>
 <p>Python和Java不做尾递归优化是为了抛出异常时有完整的stack trace</p>
 <h3 id="1-数组：实现而非思维，连续存储，作为底层"><a href="#1-数组：实现而非思维，连续存储，作为底层" class="headerlink" title="1 数组：实现而非思维，连续存储，作为底层"></a>1 数组：实现而非思维，连续存储，作为底层</h3><p>因连续存储而修改必须移动</p>
 <p>vector是容器，不是数组，但底层实现是</p>
 <h4 id="二维数组：C-连续"><a href="#二维数组：C-连续" class="headerlink" title="二维数组：C++连续"></a>二维数组：C++连续</h4><h4 id="二分查找：边界条件：左闭右开，左闭右闭"><a href="#二分查找：边界条件：左闭右开，左闭右闭" class="headerlink" title="二分查找：边界条件：左闭右开，左闭右闭"></a>二分查找：边界条件：左闭右开，左闭右闭</h4><p>1 数组是否有序</p>
 <p>2 数组中是否有重复元素：影响结果是否唯一</p>
+<p>我选择左闭右开，因为当左右相同的时候实际是不需要使用二分法的，直接返回值，不需要适用该情况</p>
+<p><strong>数组元素在内存连续，不能单独删除某个元素，只能覆盖</strong></p>
+<p>&#x3D;&#x3D;思路&#x2F;把几个技巧结合起来：双指针 + 只扫一边另放结果&#x3D;&#x3D;</p>
+<p>！！！因为已经知道得到大小的方法：即数据的大小分布的规律，且这个规律是很简单且很好利用的。破题的第一步就是找这个规律！！！</p>
+<h4 id="双指针法（在数组和链表很常见）：一是快慢指针（可以全部重新赋值，反正复杂度都一样，顺序还不变），二是正反向指针（没事先用双正向快慢指针）。不管怎样，两个指针指向的都是两个不同的需要的目标，而这两个目标需要交换位置。反正都要走一遍并交换位置，从前从后没区别。时刻注意，交换时程序需要的只是指针-索引下标；删除倒数第n个结点：两个指针足以定义位置信息"><a href="#双指针法（在数组和链表很常见）：一是快慢指针（可以全部重新赋值，反正复杂度都一样，顺序还不变），二是正反向指针（没事先用双正向快慢指针）。不管怎样，两个指针指向的都是两个不同的需要的目标，而这两个目标需要交换位置。反正都要走一遍并交换位置，从前从后没区别。时刻注意，交换时程序需要的只是指针-索引下标；删除倒数第n个结点：两个指针足以定义位置信息" class="headerlink" title="双指针法（在数组和链表很常见）：一是快慢指针（可以全部重新赋值，反正复杂度都一样，顺序还不变），二是正反向指针（没事先用双正向快慢指针）。不管怎样，两个指针指向的都是两个不同的需要的目标，而这两个目标需要交换位置。反正都要走一遍并交换位置，从前从后没区别。时刻注意，交换时程序需要的只是指针&#x2F;索引下标；删除倒数第n个结点：两个指针足以定义位置信息"></a>双指针法（在数组和链表很常见）：一是快慢指针（可以全部重新赋值，反正复杂度都一样，顺序还不变），二是正反向指针（没事先用双正向快慢指针）。不管怎样，两个指针指向的都是两个不同的需要的目标，而这两个目标需要交换位置。反正都要走一遍并交换位置，从前从后没区别。时刻注意，交换时程序需要的只是指针&#x2F;索引下标；删除倒数第n个结点：两个指针足以定义位置信息</h4><p>和上面一样的记忆经验：</p>
+<p>数组就是一个整数向量加引用。</p>
+<p>能用双指针的情况比想象得多。和其他技巧结合</p>
+<h4 id="滑动窗口：用一个循环完成操作，也可以理解为双指针的一种"><a href="#滑动窗口：用一个循环完成操作，也可以理解为双指针的一种" class="headerlink" title="滑动窗口：用一个循环完成操作，也可以理解为双指针的一种"></a>滑动窗口：用一个循环完成操作，也可以理解为双指针的一种</h4><p>思路：只用一个循环，那么这个循环的索引一定是表示窗口的终止位置；然后就是，滑动窗口的起始位置如何移动呢？</p>
+<p>规律：窗口的起始位置如何移动：如果当前窗口的值大于等于s了，窗口就要向前移动了（也就是该缩小了）。</p>
+<p><strong>滑动窗口的精妙之处在于根据当前子序列和大小的情况，不断调节子序列的起始位置。从而将O(n^2)暴力解法降为O(n)</strong></p>
+<p>循环套循环不一定是n^2， 主要是看每一个元素被操作的次数，每个元素在滑动窗后进来操作一次，出去操作一次，每个元素都是被操作两次，所以时间复杂度是2n 。</p>
+<h4 id="不涉及算法，就是模拟过程：考察对代码的掌控能力：循环不变量原则、奇偶不同情况：真正解决题目的代码都是简洁的，或者有原则性的，不会冗余"><a href="#不涉及算法，就是模拟过程：考察对代码的掌控能力：循环不变量原则、奇偶不同情况：真正解决题目的代码都是简洁的，或者有原则性的，不会冗余" class="headerlink" title="不涉及算法，就是模拟过程：考察对代码的掌控能力：循环不变量原则、奇偶不同情况：真正解决题目的代码都是简洁的，或者有原则性的，不会冗余"></a>不涉及算法，就是模拟过程：考察对代码的掌控能力：循环不变量原则、奇偶不同情况：真正解决题目的代码都是简洁的，或者有原则性的，不会冗余</h4><h4 id="前缀和：涉及计算区间和：一次遍历就提前收集足够信息"><a href="#前缀和：涉及计算区间和：一次遍历就提前收集足够信息" class="headerlink" title="前缀和：涉及计算区间和：一次遍历就提前收集足够信息"></a>前缀和：涉及计算区间和：一次遍历就提前收集足够信息</h4><h3 id="2-链表：指针串联起的线性结构，初始化问题！"><a href="#2-链表：指针串联起的线性结构，初始化问题！" class="headerlink" title="2 链表：指针串联起的线性结构，初始化问题！"></a>2 链表：指针串联起的线性结构，初始化问题！</h3><p>反转链表是面试中高频题目，很考察面试者对链表操作的熟练程度。</p>
+<p>环形链表是比较难的题目了。 但代码却十分简洁，主要在于一些数学证明</p>
+<p>单双（向前向后）、循环（解决约瑟夫环）、</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 单链表</span></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">ListNode</span> &#123;</span><br><span class="line">    <span class="type">int</span> val;  <span class="comment">// 节点上存储的元素</span></span><br><span class="line">    ListNode *next;  <span class="comment">// 指向下一个节点的指针</span></span><br><span class="line">    <span class="built_in">ListNode</span>(<span class="type">int</span> x) : <span class="built_in">val</span>(x), <span class="built_in">next</span>(<span class="literal">NULL</span>) &#123;&#125;  <span class="comment">// 节点的构造函数</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">MyLinkedList</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="comment">// 定义链表节点结构体</span></span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">LinkedNode</span> &#123;</span><br><span class="line">        <span class="type">int</span> val;</span><br><span class="line">        LinkedNode* next;</span><br><span class="line">        <span class="built_in">LinkedNode</span>(<span class="type">int</span> val):<span class="built_in">val</span>(val), <span class="built_in">next</span>(<span class="literal">nullptr</span>)&#123;&#125;</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 初始化链表</span></span><br><span class="line">    <span class="built_in">MyLinkedList</span>() &#123;</span><br><span class="line">        _dummyHead = <span class="keyword">new</span> <span class="built_in">LinkedNode</span>(<span class="number">0</span>); <span class="comment">// 这里定义的头结点 是一个虚拟头结点，而不是真正的链表头结点</span></span><br><span class="line">        _size = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 获取到第index个节点数值，如果index是非法数值直接返回-1， 注意index是从0开始的，第0个节点就是头结点</span></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">get</span><span class="params">(<span class="type">int</span> index)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (index &gt; (_size - <span class="number">1</span>) || index &lt; <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        LinkedNode* cur = _dummyHead-&gt;next;</span><br><span class="line">        <span class="keyword">while</span>(index--)&#123; <span class="comment">// 如果--index 就会陷入死循环</span></span><br><span class="line">            cur = cur-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cur-&gt;val;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 在链表最前面插入一个节点，插入完成后，新插入的节点为链表的新的头结点</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">addAtHead</span><span class="params">(<span class="type">int</span> val)</span> </span>&#123;</span><br><span class="line">        LinkedNode* newNode = <span class="keyword">new</span> <span class="built_in">LinkedNode</span>(val);</span><br><span class="line">        newNode-&gt;next = _dummyHead-&gt;next;</span><br><span class="line">        _dummyHead-&gt;next = newNode;</span><br><span class="line">        _size++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 在链表最后面添加一个节点</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">addAtTail</span><span class="params">(<span class="type">int</span> val)</span> </span>&#123;</span><br><span class="line">        LinkedNode* newNode = <span class="keyword">new</span> <span class="built_in">LinkedNode</span>(val);</span><br><span class="line">        LinkedNode* cur = _dummyHead;</span><br><span class="line">        <span class="keyword">while</span>(cur-&gt;next != <span class="literal">nullptr</span>)&#123;</span><br><span class="line">            cur = cur-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        cur-&gt;next = newNode;</span><br><span class="line">        _size++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 在第index个节点之前插入一个新节点，例如index为0，那么新插入的节点为链表的新头节点。</span></span><br><span class="line">    <span class="comment">// 如果index 等于链表的长度，则说明是新插入的节点为链表的尾结点</span></span><br><span class="line">    <span class="comment">// 如果index大于链表的长度，则返回空</span></span><br><span class="line">    <span class="comment">// 如果index小于0，则在头部插入节点</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">addAtIndex</span><span class="params">(<span class="type">int</span> index, <span class="type">int</span> val)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(index &gt; _size) <span class="keyword">return</span>;</span><br><span class="line">        <span class="keyword">if</span>(index &lt; <span class="number">0</span>) index = <span class="number">0</span>;        </span><br><span class="line">        LinkedNode* newNode = <span class="keyword">new</span> <span class="built_in">LinkedNode</span>(val);</span><br><span class="line">        LinkedNode* cur = _dummyHead;</span><br><span class="line">        <span class="keyword">while</span>(index--) &#123;</span><br><span class="line">            cur = cur-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        newNode-&gt;next = cur-&gt;next;</span><br><span class="line">        cur-&gt;next = newNode;</span><br><span class="line">        _size++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 删除第index个节点，如果index 大于等于链表的长度，直接return，注意index是从0开始的</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">deleteAtIndex</span><span class="params">(<span class="type">int</span> index)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (index &gt;= _size || index &lt; <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        LinkedNode* cur = _dummyHead;</span><br><span class="line">        <span class="keyword">while</span>(index--) &#123;</span><br><span class="line">            cur = cur -&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        LinkedNode* tmp = cur-&gt;next;</span><br><span class="line">        cur-&gt;next = cur-&gt;next-&gt;next;</span><br><span class="line">        <span class="keyword">delete</span> tmp;</span><br><span class="line">        <span class="comment">//delete命令指示释放了tmp指针原本所指的那部分内存，</span></span><br><span class="line">        <span class="comment">//被delete后的指针tmp的值（地址）并非就是NULL，而是随机值。也就是被delete后，</span></span><br><span class="line">        <span class="comment">//如果不再加上一句tmp=nullptr,tmp会成为乱指的野指针</span></span><br><span class="line">        <span class="comment">//如果之后的程序不小心使用了tmp，会指向难以预想的内存空间</span></span><br><span class="line">        tmp=<span class="literal">nullptr</span>;</span><br><span class="line">        _size--;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 打印链表</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">printLinkedList</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        LinkedNode* cur = _dummyHead;</span><br><span class="line">        <span class="keyword">while</span> (cur-&gt;next != <span class="literal">nullptr</span>) &#123;</span><br><span class="line">            cout &lt;&lt; cur-&gt;next-&gt;val &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">            cur = cur-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        cout &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">int</span> _size;</span><br><span class="line">    LinkedNode* _dummyHead;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>析构函数必须有</p>
+<p>移除头结点和移除其他节点的操作是不一样的，因为链表的其他节点都是通过前一个节点来移除当前节点，而头结点没有前一个节点。</p>
+<p>只要将头结点向后移动一位就可以</p>
+<h3 id="3-哈希表：快速判断一个元素是否出现集合里，空间换时间；没有限制数值的大小，就无法使用数组来做哈希表，用set"><a href="#3-哈希表：快速判断一个元素是否出现集合里，空间换时间；没有限制数值的大小，就无法使用数组来做哈希表，用set" class="headerlink" title="3 哈希表：快速判断一个元素是否出现集合里，空间换时间；没有限制数值的大小，就无法使用数组来做哈希表，用set"></a>3 哈希表：快速判断一个元素是否出现集合里，空间换时间；没有限制数值的大小，就无法使用数组来做哈希表，用set</h3><p>直接使用set 不仅占用空间比数组大，而且速度要比数组慢，set把数值映射到key上都要做hash计算</p>
+<p>std::unordered_map 底层实现为哈希表，std::map 和std::multimap 的底层实现是红黑树。同理，std::map 和std::multimap 的key也是有序的（这个问题也经常作为面试题，考察对语言容器底层的理解）。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">intersection</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums1, vector&lt;<span class="type">int</span>&gt;&amp; nums2)</span> </span>&#123;</span><br><span class="line">        unordered_set&lt;<span class="type">int</span>&gt; result_set; <span class="comment">// 存放结果，之所以用set是为了给结果集去重</span></span><br><span class="line">        <span class="function">unordered_set&lt;<span class="type">int</span>&gt; <span class="title">nums_set</span><span class="params">(nums<span class="number">1.</span>begin(), nums<span class="number">1.</span>end())</span></span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> num : nums2) &#123;</span><br><span class="line">            <span class="comment">// 发现nums2的元素 在nums_set里又出现过</span></span><br><span class="line">            <span class="keyword">if</span> (nums_set.<span class="built_in">find</span>(num) != nums_set.<span class="built_in">end</span>()) &#123;</span><br><span class="line">                result_set.<span class="built_in">insert</span>(num);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(result_set.<span class="built_in">begin</span>(), result_set.<span class="built_in">end</span>());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p>我还以为</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">minSubArrayLen</span><span class="params">(<span class="type">int</span> s, vector&lt;<span class="type">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> result = INT32_MAX;</span><br><span class="line">        <span class="type">int</span> sum = <span class="number">0</span>; <span class="comment">// 滑动窗口数值之和</span></span><br><span class="line">        <span class="type">int</span> i = <span class="number">0</span>; <span class="comment">// 滑动窗口起始位置</span></span><br><span class="line">        <span class="type">int</span> subLength = <span class="number">0</span>; <span class="comment">// 滑动窗口的长度</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; nums.<span class="built_in">size</span>(); j++) &#123;</span><br><span class="line">            sum += nums[j];</span><br><span class="line">            <span class="comment">// 注意这里使用while，每次更新 i（起始位置），并不断比较子序列是否符合条件</span></span><br><span class="line">            <span class="keyword">while</span> (sum &gt;= s) &#123;</span><br><span class="line">                subLength = (j - i + <span class="number">1</span>); <span class="comment">// 取子序列的长度</span></span><br><span class="line">                result = result &lt; subLength ? result : subLength;</span><br><span class="line">                sum -= nums[i++]; <span class="comment">// 这里体现出滑动窗口的精髓之处，不断变更i（子序列的起始位置）</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 如果result没有被赋值的话，就返回0，说明没有符合条件的子序列</span></span><br><span class="line">        <span class="keyword">return</span> result == INT32_MAX ? <span class="number">0</span> : result;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h4 id="指针-迭代器就是一个好用的工具，对内存里存储的值没有一点影响，就好像有玻璃门的柜子"><a href="#指针-迭代器就是一个好用的工具，对内存里存储的值没有一点影响，就好像有玻璃门的柜子" class="headerlink" title="指针&#x2F;迭代器就是一个好用的工具，对内存里存储的值没有一点影响，就好像有玻璃门的柜子"></a>指针&#x2F;迭代器就是一个好用的工具，对内存里存储的值没有一点影响，就好像有玻璃门的柜子</h4><h4 id="指针语法：定义关键是在-的左边还是右边，-左边是什么东西的指针（值），右边是什么样的指针（指向）；-如果不加括号则一定跟随左边"><a href="#指针语法：定义关键是在-的左边还是右边，-左边是什么东西的指针（值），右边是什么样的指针（指向）；-如果不加括号则一定跟随左边" class="headerlink" title="指针语法：定义关键是在*的左边还是右边，*左边是什么东西的指针（值），右边是什么样的指针（指向）；*如果不加括号则一定跟随左边"></a>指针语法：定义关键是在*的左边还是右边，*左边是什么东西的指针（值），右边是什么样的指针（指向）；*如果不加括号则一定跟随左边</h4><p>常量指针和指针常量、函数指针和指针函数、数组指针和指针数组，关键是看最后两个字是什么</p>
+<h4 id="指针：申请堆空间。函数参数传指针从内存角度很好理解！因为参数都拷贝到栈里的新变量。"><a href="#指针：申请堆空间。函数参数传指针从内存角度很好理解！因为参数都拷贝到栈里的新变量。" class="headerlink" title="指针：申请堆空间。函数参数传指针从内存角度很好理解！因为参数都拷贝到栈里的新变量。"></a>指针：申请堆空间。函数参数传指针从内存角度很好理解！因为参数都拷贝到栈里的新变量。</h4><p>C：malloc申请不初始化的空间，返回指针；memset(指针，值，大小)初始化；free()；效率更高</p>
+<p>C++：new用初始化的方式申请空间；delete；是表达式而不是函数</p>
+<h4 id="推荐用引用（同时考虑占用内存空间）！引用传递优于地址传递，引用传递传递的是别名而不是拷贝值"><a href="#推荐用引用（同时考虑占用内存空间）！引用传递优于地址传递，引用传递传递的是别名而不是拷贝值" class="headerlink" title="推荐用引用（同时考虑占用内存空间）！引用传递优于地址传递，引用传递传递的是别名而不是拷贝值"></a>推荐用引用（同时考虑占用内存空间）！引用传递优于地址传递，引用传递传递的是别名而不是拷贝值</h4><h4 id="引用是为了代替指针（实际是常量指针）：就是给地址取别名，造一个别名就可以随便用该变量了（变量都是地址的别名），定义方式同指针，操作效果同实体-指针（相当于硬链接而不是增加一个软链接）"><a href="#引用是为了代替指针（实际是常量指针）：就是给地址取别名，造一个别名就可以随便用该变量了（变量都是地址的别名），定义方式同指针，操作效果同实体-指针（相当于硬链接而不是增加一个软链接）" class="headerlink" title="引用是为了代替指针（实际是常量指针）：就是给地址取别名，造一个别名就可以随便用该变量了（变量都是地址的别名），定义方式同指针，操作效果同实体&#x2F;指针（相当于硬链接而不是增加一个软链接）"></a>引用是为了代替指针（实际是常量指针）：就是给地址取别名，造一个别名就可以随便用该变量了（变量都是地址的别名），定义方式同指针，操作效果同实体&#x2F;指针（相当于硬链接而不是增加一个软链接）</h4><h4 id="总结就是定义时-在左是取别名在右是取地址；-在定义是指针，在其余是解引用（用指针获取得到内存里的值）"><a href="#总结就是定义时-在左是取别名在右是取地址；-在定义是指针，在其余是解引用（用指针获取得到内存里的值）" class="headerlink" title="总结就是定义时&amp;在左是取别名在右是取地址；*在定义是指针，在其余是解引用（用指针获取得到内存里的值）"></a>总结就是定义时&amp;在左是取别名在右是取地址；*在定义是指针，在其余是解引用（用指针获取得到内存里的值）</h4><p><font color = 'red'>定义，包括函数传参类型的定义：*和&amp;在定义中都是为了声明传的是怎样的内容，是一个声明，而不是起作用的运算符。声明了是别名之后函数就会这样对待传入的参数，以别名对待（去取有这个名字的地址里的值）而不是以值对待（直接拷贝值）</font></p>
+<p>思考范式：</p>
+<p>建议引用传参！</p>
+<p>1 定义、传参时的引用：见上文</p>
+<p>2 返回时的引用：返回的实体的生命周期必须大于函数的生命周期。不能返回局部变量的引用，因为已经销毁；堆空间（未被销毁的new）的引用也不要，因为可能内存泄漏，除非有自动回收的机制，即在用到返回引用的函数后立刻写一个delete&amp;释放内存（注意delete只能操作指针，因此要对别名用取地址符&amp;）！应该用static、全局变量</p>
+<h3 id="C-栈对象、堆对象"><a href="#C-栈对象、堆对象" class="headerlink" title="C++栈对象、堆对象"></a>C++栈对象、堆对象</h3><p>静态建立的栈对象由编译器直接回收（可以是引用、指针），因为delete只回收堆空间，不回收指针</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/01/24/algorithm/" data-id="cm6x03ga60001lguh0w3edkqc" data-title="algorithm" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/01/24/algorithm/" data-id="cm79vx7fw0000lkuhftaz6tgf" data-title="algorithm" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -137,6 +191,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2025/02/09/network-from-ssh/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          network-from-ssh
+        
+      </div>
+    </a>
   
   
     <a href="/2025/01/23/first-blog-1/" id="article-nav-older" class="article-nav-link-wrap">
@@ -166,7 +229,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">January 2025</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/02/">February 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">January 2025</a></li></ul>
     </div>
   </div>
 
@@ -179,6 +242,14 @@
       <ul>
         
           <li>
+            <a href="/2025/02/18/grammar/">grammar</a>
+          </li>
+        
+          <li>
+            <a href="/2025/02/09/network-from-ssh/">network-from-ssh</a>
+          </li>
+        
+          <li>
             <a href="/2025/01/24/algorithm/">algorithm</a>
           </li>
         
@@ -188,10 +259,6 @@
         
           <li>
             <a href="/2025/01/22/1-23/">1/23</a>
-          </li>
-        
-          <li>
-            <a href="/2025/01/18/hello-world/">Hello World</a>
           </li>
         
       </ul>
